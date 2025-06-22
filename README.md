@@ -7,9 +7,9 @@ The config lets you select what to be quizzed for (capital, population, area, cu
 
 ---
 
-## Installation
+### Installation
 
-### 1. Clone the repo and install with pip
+#### Clone the repo and install with pip
 ```bash
 git clone https://github.com/fsncps/geogame.git
 cd geogame
@@ -17,7 +17,7 @@ pip install -e .
 ```
 ---
 
-### 2. Set up the database
+#### Set up the database
 There's a script which creates the MySQL DB and user and imports the schema. Make it executable and run it:
 ```bash
 cd db/
@@ -42,10 +42,10 @@ fi
 ```
 ---
 
-## Config
+### Config
 
 On the first run, the default config file is copied to `~/.config/geogame/config.toml`.
-In the config file, you can select question content types, set thresholds for error and memorization scores, and limit countries by continent or minimum area and population figures.
+In the config file, you can select question content types, set thresholds for error and memorization scores, and limit countries by continent or minimum area and population.
 
 ---
 <img src="screenshot.png" alt="Demo" width="500"/>

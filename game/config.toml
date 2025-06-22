@@ -1,0 +1,37 @@
+# GeoGame Quiz Configuration
+
+[test_values]
+# Enable or disable specific test types
+capital = true
+population = true
+area = false
+currency = true
+# languages = false ## maybe later
+# neighbours = false ## maybe later
+# largest_city = false ## maybe later
+# elevation = false ## maybe later
+
+[continents]
+# Set to true to include, false to exclude
+AF = true       #Africa
+AS = true       #Asia
+EU = true       #Europe
+NA = true       #Norh America
+SA = true       #South America
+OC = false      #Oceania
+AN = false      #Antarctica
+
+[thresholds]
+# Relative error margins for numeric questions
+not_bad = 0.30          # i.e. 0.3 = an error of <30% is considered "not bad"
+good = 0.10             # i.e. 0.1 = an error of <10% is considered "good"
+
+# "Memorized" accuracy threshold
+memorized = 0.95        # i.e. a question will be likely to be skipped when you have reached this average accuracy score in recent results  
+refresh_chance = 0.1    # the reverse of this likelyhood, i.e. 0.1 = there is a 10% chance that memorized questions are repeated to refresh
+
+[filters]
+# Minimum population and area to include countries
+min_population = 1000000   # Only countries with pop > 1M
+min_area = 500               # Only countries with area > 500 km²
+

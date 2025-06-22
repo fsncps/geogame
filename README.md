@@ -49,3 +49,13 @@ In the config file, you can select question content types, set thresholds for er
 
 ---
 <img src="screenshot.png" alt="Demo" width="500"/>
+
+---
+### TODO (maybe)
+- add evaluation mechanism for questions / data with multiple elements (type 3), like languages or bordering countries
+- add commands to output progress / error rates / etc.
+- add more data for additional questions (largest city, highest elevation, founded/independence, etc.
+
+Any contributions welcome.
+
+

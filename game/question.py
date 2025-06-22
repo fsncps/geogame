@@ -65,7 +65,7 @@ def format_question(country: dict, test: dict) -> tuple[str, str]:
     correct_str = str(correct) if correct is not None else "N/A"
 
     if unit:
-        question_text = f"What is the {desc} of {country_name} (in {unit})?"
+        question_text = f"What is the {desc} of {country_name}?"
     else:
         question_text = f"What is the {desc} of {country_name}?"
 

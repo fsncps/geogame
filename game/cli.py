@@ -25,7 +25,7 @@ def main():
     print("[bold cyan]Welcome to the GeoGame Quiz![/bold cyan]")
     while True:
         ask_question()
-        cont = Prompt.ask("Another question? (y/n)", choices=["y", "n"], default="y")
+        cont = Prompt.ask("Another question?", choices=["y", "n"], default="y")
         if cont == "n":
             break
 
